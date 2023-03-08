@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTurnPromptBot", "Multi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsBot", "CardsBot\CardsBot.csproj", "{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveCardsBot", "AdaptiveCardsBot\AdaptiveCardsBot.csproj", "{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
