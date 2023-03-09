@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveCardsBot", "Adaptiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuggestedActionsBot", "SuggestedActionsBot\SuggestedActionsBot.csproj", "{089DD832-7883-4EE4-BD1F-B5A26339696F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBot", "CoreBot\CoreBot.csproj", "{7B52862F-D75A-4812-AEF3-FFF14DA552DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{089DD832-7883-4EE4-BD1F-B5A26339696F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{089DD832-7883-4EE4-BD1F-B5A26339696F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{089DD832-7883-4EE4-BD1F-B5A26339696F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
