@@ -11,13 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WelcomeUser", "WelcomeUser\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTurnPromptBot", "MultiTurnPromptBot\MultiTurnPromptBot.csproj", "{23D1EB33-DB9B-41F7-B2C7-AB69EE55FA1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsBot", "CardsBot\CardsBot.csproj", "{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardsBot", "CardsBot\CardsBot.csproj", "{37B5F72D-903D-4D7D-A78D-E36FFDF152BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveCardsBot", "AdaptiveCardsBot\AdaptiveCardsBot.csproj", "{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptiveCardsBot", "AdaptiveCardsBot\AdaptiveCardsBot.csproj", "{C744FE9C-9AE8-4A25-8FB3-9CAC22A7A69C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuggestedActionsBot", "SuggestedActionsBot\SuggestedActionsBot.csproj", "{089DD832-7883-4EE4-BD1F-B5A26339696F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuggestedActionsBot", "SuggestedActionsBot\SuggestedActionsBot.csproj", "{089DD832-7883-4EE4-BD1F-B5A26339696F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBot", "CoreBot\CoreBot.csproj", "{7B52862F-D75A-4812-AEF3-FFF14DA552DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreBot", "CoreBot\CoreBot.csproj", "{7B52862F-D75A-4812-AEF3-FFF14DA552DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotIntegratedWebApp", "BotIntegratedWebApp\BotIntegratedWebApp.csproj", "{7A4F3EB8-4F88-4DD9-BAF2-F4BD692CA29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeChatAdapter", "WeChatAdapter\WeChatAdapter.csproj", "{1A8E3DC1-5A51-4E41-B11E-7D1B703D2238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotIntegratedWeChat", "BotIntegratedWeChat\BotIntegratedWeChat.csproj", "{B7244499-F705-443B-9DDB-B0FD59897F79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B52862F-D75A-4812-AEF3-FFF14DA552DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4F3EB8-4F88-4DD9-BAF2-F4BD692CA29B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4F3EB8-4F88-4DD9-BAF2-F4BD692CA29B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4F3EB8-4F88-4DD9-BAF2-F4BD692CA29B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4F3EB8-4F88-4DD9-BAF2-F4BD692CA29B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8E3DC1-5A51-4E41-B11E-7D1B703D2238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8E3DC1-5A51-4E41-B11E-7D1B703D2238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8E3DC1-5A51-4E41-B11E-7D1B703D2238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8E3DC1-5A51-4E41-B11E-7D1B703D2238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7244499-F705-443B-9DDB-B0FD59897F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7244499-F705-443B-9DDB-B0FD59897F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7244499-F705-443B-9DDB-B0FD59897F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7244499-F705-443B-9DDB-B0FD59897F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
